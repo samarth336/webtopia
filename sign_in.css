@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+body{
+    background-color: #060C2A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    gap: 200px;
+}
+
+.container{
+    width: 400px;
+    height: 70vh;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    gap: 10px;
+    scale: 1.2;
+}
+
+.container h1{
+    margin-left: 40px;
+    font-weight: 500;
+}
+.heading{
+    margin-left: 20px;
+}
+
+.input{
+    width: 90%;
+    height: 40px;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.123);
+    border: none;
+    border-radius: 5px;
+    text-indent: 10px;
+    color: white;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0px 0px 10px 20px;
+    gap: 5px;
+    position: relative;
+    bottom: 5px;
+    font-size: 0.7rem
+}
+.checkbox a{
+    color:#348DE6;
+
+}
+button{
+    background-color: #348DE6;
+    text-align: center;
+    width: 90%;
+    height: 40px;
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.12rem;
+    color: white;
+}
+button:hover{
+    box-shadow:0px 0px 0px 2px rgba(255, 255, 255, 0.7);
+    color: black;
+    cursor: pointer;
+}
+button:active{
+    background-color:white;
+}
+hr{
+    width: 90%;
+    align-self: center;
+    margin-top: 20px;
+}
+#or{
+    align-self: center;
+    background-color: white;
+    color: #060C2A;
+    position: relative;
+    bottom: 19.99px;
+    padding:0px 2px;
+    font-size: 0.7rem;
+}
+.other_option{
+    align-self: center;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.google{
+    height: 30px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid rgba(52, 141, 230, 0.5);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.123);
+    font-size: 0.89rem;
+    cursor: pointer;
+}
+.apple{
+    height: 30px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid rgba(52, 141, 230, 0.5);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.123);
+    font-size: 0.89rem;
+    cursor: pointer;
+}
+.apple img{
+    align-self: baseline;
+    position: relative;
+    right: 5px; 
+    margin-top: 4px;
+}
+.apple p{
+    position: relative;
+    right: 5px;
+}
+
+.login{
+    align-self: center;
+    margin-top: 5px;
+    font-size: 0.89rem;
+}
+.login a{
+    color: #348DE6;
+    text-decoration: none;
+}
+
+.quote{
+    height: 35vh;
+    width: 200px;
+    text-align: center;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    scale: 1.5;
+    box-shadow: 0px 0px 40px -9px rgba(255, 255, 255, 0.3);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+.quote:hover{
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 40px -9px rgba(255, 255, 255, 0.7);
+    scale: 1.6;
+}
+.quote a{
+    color: white;
+    font-size: 0.7rem;
+    text-align: right;
+}

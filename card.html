@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science Engineering</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-5">
+    <div class="max-w-4xl mx-auto">
+        <!-- Back Arrow Button -->
+        <button onclick="goBack()" class="flex items-center text-gray-700 hover:text-black mb-4">
+            <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path>
+            </svg>
+            <span class="text-lg font-semibold">Back</span>
+        </button>
+
+        <div class="card lg:card-side bg-white shadow-xl p-5 rounded-lg">
+            <figure class="w-full">
+                <img src="images/bgcse.jpg" 
+                     alt="Computer Science" class="rounded-lg" />
+            </figure>
+            <div class="card-body w-2/3 p-5">
+                <h2 class="text-2xl font-bold text-gray-800">Computer Science Engineering</h2>
+                <p class="text-gray-600">Explore the world of computing, programming, and artificial intelligence.</p>
+                
+                <h3 class="text-xl font-semibold mt-4">Key Subjects:</h3>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>Programming Languages (C, C++, Java, Python)</li>
+                    <li>Data Structures & Algorithms</li>
+                    <li>Computer Networks & Cybersecurity</li>
+                    <li>Artificial Intelligence & Machine Learning</li>
+                    <li>Cloud Computing & Blockchain</li>
+                </ul>
+                
+                <h3 class="text-xl font-semibold mt-4">Future Scope:</h3>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>AI & Machine Learning</li>
+                    <li>Cybersecurity & Ethical Hacking</li>
+                    <li>Data Science & Big Data</li>
+                    <li>Cloud Computing & DevOps</li>
+                    <li>Full-Stack Web & Mobile App Development</li>
+                </ul>
+                
+                <h3 class="text-xl font-semibold mt-4">Career Opportunities:</h3>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>Software Developer</li>
+                    <li>Data Scientist</li>
+                    <li>AI Engineer</li>
+                    <li>Ethical Hacker</li>
+                    <li>Cybersecurity Analyst</li>
+                </ul>
+                
+                <h3 class="text-xl font-semibold mt-4">Top Recruiters:</h3>
+                <p class="text-gray-700">Google, Microsoft, Amazon, TCS, Infosys, Wipro, IBM</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back(); // Navigate to the previous page
+        }
+    </script>
+</body>
+</html>

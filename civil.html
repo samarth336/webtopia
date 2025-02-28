@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civil Engineering</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-5">
+    <div class="max-w-4xl mx-auto">
+        <!-- Back Arrow Button -->
+        <button onclick="goBack()" class="flex items-center text-gray-700 hover:text-black mb-4">
+            <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path>
+            </svg>
+            <span class="text-lg font-semibold">Back</span>
+        </button>
+
+        <div class="card lg:card-side bg-white shadow-xl p-5 rounded-lg">
+            <figure class="w-full">
+                <img src="images/bgcivil.jpg" 
+                     alt="Civil Engineering" class="rounded-lg" />
+            </figure>
+            <div class="card-body w-2/3 p-5">
+                <h2 class="text-2xl font-bold text-gray-800">Civil Engineering</h2>
+                <p class="text-gray-600">Design and construct the infrastructure that shapes our world.</p>
+                
+                <h3 class="text-xl font-semibold mt-4">Key Subjects:</h3>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>Structural Engineering</li>
+                    <li>Geotechnical Engineering</li>
+                    <li>Transportation Engineering</li>
+                    <li>Construction Management</li>
+                </ul>
+                
+                <h3 class="text-xl font-semibold mt-4">Future Scope:</h3>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>Smart Cities Development</li>
+                    <li>Green & Sustainable Infrastructure</li>
+                    <li>Earthquake-Resistant Structures</li>
+                </ul>
+                
+                <h3 class="text-xl font-semibold mt-4">Career Opportunities:</h3>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>Structural Engineer</li>
+                    <li>Site Engineer</li>
+                    <li>Urban Planner</li>
+                </ul>
+                
+                <h3 class="text-xl font-semibold mt-4">Top Recruiters:</h3>
+                <p class="text-gray-700">L&T, PWD, CPWD, Indian Railways, NHAI</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back(); // Navigate to the previous page
+        }
+    </script>
+</body>
+</html>
